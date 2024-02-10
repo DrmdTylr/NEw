@@ -1,10 +1,13 @@
 var clicks = 0;
 
+function yesYipee() {
+    document.getElementById("gimg").src = "https://i.pinimg.com/originals/5a/47/0e/5a470e061d6a98f315f6f034d949f173.gif"
+    document.getElementById("gimg").style.display = "block"
+    document.getElementById("h1").style.display = "none"
+}
+
 function clickRej() {
     clicks += 1;
-    
-    
-
     if (clicks === 1) {
         document.getElementById('butl').style.width = parseInt(document.getElementById('butl').style.width,10) * 1.2 + "px";
         document.getElementById('butl').style.height = parseInt(document.getElementById('butl').style.height,10) * 1.5 + "px";
