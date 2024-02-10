@@ -1,0 +1,63 @@
+html, body {
+    max-width: 100%;
+    max-height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+h1 {
+    position: absolute;
+    margin-top: 2vh;
+    text-align: center;
+    top: 0;
+    width: 98%;
+    height: 5%;
+    display: flex;
+    justify-content: center; /** X-axis align **/
+}
+
+.butlhold {
+    height: 100vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-left: 0;
+}
+
+.butrhold {
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-right: 0;
+}
+
+#butl {
+    background-color: #99ff00;
+}
+
+#butr {
+    background-color: #fd3535;
+}
+
+img {
+    height: 30%;
+}
+
+#gunimg {
+    margin-top: 15vh;
+    margin-left: -5vw;
+}
+
+#video {
+    margin-left: -32.5vw;
+}
+
+#default {
+    margin-left: 26vw;
+}
+
+.button {
+    font-size: 25px;
+    width: 300px;
+}
